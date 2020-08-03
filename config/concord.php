@@ -5,7 +5,7 @@ return [
         Konekt\AppShell\Providers\ModuleServiceProvider::class => [
             'ui' => [
                 'name' => 'Vanilo',
-                'url' => '/admin/product'
+                'url' => 'http://localhost/HoangShop/public/admin/product'
             ]
         ],
         Vanilo\Framework\Providers\ModuleServiceProvider::class => [
